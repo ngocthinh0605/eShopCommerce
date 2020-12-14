@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cJBXYytyQfNdCkID1fJemODkCOsJ3NkVLMk6aRn/uRwSaSYKk7Ltk4gZg+Wb/9tkr64bOm92vuvujpYtqd9f6A==",
+  "dgSpecHash": "8agekazA3dc7K6lECxbzQv10f+4gFN5Rfwl7r4GR82spkmEIhy27hhO19bgg9/33Lr9w8WTz7rM9x09AD0Z10A==",
   "success": true,
-  "projectFilePath": "D:\\ProJectChuan\\bShop\\eShopCommerce\\eShopCommerce.csproj",
+  "projectFilePath": "D:\\PushGit\\eShopCommerce\\eShopCommerce\\eShopCommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngoct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\ngoct\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

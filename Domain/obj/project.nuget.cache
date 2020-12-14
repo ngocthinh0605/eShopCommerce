@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3chas0iBjbb1ujkBQhbwaDx4dajk9BazIraCyvgpTJX4Oel6f0+i8jhV4Ay3fH7H3HAA2Rl/BE6DDX4FZ+pFaQ==",
+  "dgSpecHash": "zGTU6BZMlavVFd6HRmO2lUnaj9PfZhOxb60rPgvj3jms10qR2opcoExO0A2nc0v3Jxr5zL0KFSaRSJZWdN+w6g==",
   "success": true,
-  "projectFilePath": "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngoct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\ngoct\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",

@@ -6178,11 +6178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProJectChuan\\bShop\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\PushGit\\eShopCommerce\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\ProJectChuan\\bShop\\Application\\Application.csproj",
+      "projectPath": "D:\\PushGit\\eShopCommerce\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\ngoct\\.nuget\\packages\\",
-      "outputPath": "D:\\ProJectChuan\\bShop\\Application\\obj\\",
+      "outputPath": "D:\\PushGit\\eShopCommerce\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngoct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6199,8 +6199,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj"
+            "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj"
             }
           }
         }

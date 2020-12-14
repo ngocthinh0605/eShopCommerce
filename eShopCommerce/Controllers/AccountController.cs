@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace eShopCommerce.Controllers
 {
+    [AllowAnonymous]
     public class AccountController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -38,6 +39,10 @@ namespace eShopCommerce.Controllers
                var result = await _userManager.CreateAsync(user, model.Password);
                 if(result.Succeeded)
                 {
+                    if(_signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        return Redirect("/admin/administration/listusers");
+                    }
                     // If user is successfully created, sign-in the user using
                     // SignInManager and redirect to index action of HomeController
                    await _signInManager.SignInAsync(user, isPersistent: false);
@@ -58,14 +63,14 @@ namespace eShopCommerce.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        
         public async Task<IActionResult> Login(LoginViewModel model ,string ReturnUrl)
         {
             if (ModelState.IsValid)

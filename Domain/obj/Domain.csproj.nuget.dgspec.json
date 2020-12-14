@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj": {}
+    "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj": {
+    "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ProJectChuan\\bShop\\Domain\\Domain.csproj",
+        "projectPath": "D:\\PushGit\\eShopCommerce\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ngoct\\.nuget\\packages\\",
-        "outputPath": "D:\\ProJectChuan\\bShop\\Domain\\obj\\",
+        "outputPath": "D:\\PushGit\\eShopCommerce\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ngoct\\AppData\\Roaming\\NuGet\\NuGet.Config",

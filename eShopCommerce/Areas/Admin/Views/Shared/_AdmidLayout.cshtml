@@ -298,7 +298,19 @@
                 <!-- /.search form -->
                 <!-- sidebar menu: : style can be found in sidebar.less -->
                 <ul class="sidebar-menu" data-widget="tree">
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-folder"></i> <span>Manager</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a asp-area="admin" asp-controller="administration" asp-action="listusers"><i class="fa fa-circle-o"></i> Users</a></li>
+                            <li><a asp-area="admin" asp-controller="administration" asp-action="listrole"><i class="fa fa-circle-o"></i> Roles</a></li>
 
+                        </ul>
+                    </li>
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-folder"></i> <span>Product</span>
@@ -337,7 +349,7 @@
                             <li><a asp-area="admin" asp-controller="administration" asp-action="listrole"><i class="fa fa-circle-o"></i> ListRole</a></li>
 
                         </ul>
-                        
+
                     </li>
 
                 </ul>
@@ -349,6 +361,10 @@
         <div class="content-wrapper">
            @RenderBody()
         </div>
+        @if(IsSectionDefined("Scripts"))
+        {
+            @RenderSection("Scripts",required:true)
+        }
         <!-- /.content-wrapper -->
         <footer class="main-footer">
            
