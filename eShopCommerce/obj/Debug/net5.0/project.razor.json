@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\eShopCommerce.csproj",
+  "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\eShopCommerce.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,98 +15603,123 @@
   "RootNamespace": "eShopCommerce",
   "Documents": [
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Account\\Register.cshtml",
-      "TargetPath": "Views\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\eShop\\ProductDetail.cshtml",
-      "TargetPath": "Views\\eShop\\ProductDetail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\Shared\\NotFound.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\NotFound.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\CreateRole.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Administration\\CreateRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Account\\Login.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ListRole.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Administration\\ListRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Shared\\_RegisterLayout.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_RegisterLayout.cshtml",
       "TargetPath": "Views\\Shared\\_RegisterLayout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Home\\Index.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditUsersInRole.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\EditUsersInRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\Index.cshtml",
+      "TargetPath": "Views\\eShop\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditUser.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\EditUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_Access.cshtml",
+      "TargetPath": "Views\\Shared\\_Access.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\ProductDetail.cshtml",
+      "TargetPath": "Views\\eShop\\ProductDetail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditRole.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditRole.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Administration\\EditRole.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ProJectChuan\\bShop\\eShopCommerce\\Views\\eShop\\Index.cshtml",
-      "TargetPath": "Views\\eShop\\Index.cshtml",
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Shared\\NotFound.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\CreateRole.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\CreateRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ListUsers.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\ListUsers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ListRole.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\ListRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
