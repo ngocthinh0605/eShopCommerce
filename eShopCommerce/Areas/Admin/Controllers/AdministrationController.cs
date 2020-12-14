@@ -257,6 +257,57 @@ namespace eShopCommerce.Areas.Admin.Controllers
                 return View(model);
             }
         }
+
+
+        //delet role
+
+        [HttpPost]
+        [Route("")]
+        [Route("DeleteRole")]
+        public async Task<IActionResult> DeleteRole(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+
+            if (role == null)
+            {
+                ViewBag.ErrorMessage = $"Role with Id = {id} cannot be found";
+                return View("NotFound");
+            }
+            else
+            {
+                var result = await _roleManager.DeleteAsync(role);
+
+                if (result.Succeeded)
+                {
+                    return Redirect("/admin/administration/ListRole");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+
+                return View("/admin/administration/ListRole");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         [Route("")]
         [Route("EditUsersInRole")]
         [HttpGet]

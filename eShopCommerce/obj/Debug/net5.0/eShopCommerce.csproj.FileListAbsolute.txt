@@ -726,7 +726,6 @@ D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\eShopCommerce.RazorCoreG
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\CreateRole.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\EditRole.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\EditUsersInRole.cshtml.g.cs
-D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ListRole.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\DashBoard\Index.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\NotFound.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdmidLayout.cshtml.g.cs
@@ -755,3 +754,4 @@ D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\eShopCommerce.pdb
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\eShopCommerce.genruntimeconfig.cache
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ListUsers.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\EditUser.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ListRole.cshtml.g.cs
