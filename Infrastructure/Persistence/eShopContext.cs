@@ -2,6 +2,7 @@ using Domain.Entities;
 using Domain.UserApplication;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Reflection;
 
 namespace Infrastructure.Persistence
@@ -19,23 +20,10 @@ namespace Infrastructure.Persistence
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            builder.Entity<Emloyee>().HasData(
-           new Emloyee
-           {
-               Id = 1,
-               Name = "Mary",
-               Department = "IT",
-               Email = "mary@pragimtech.com"
-           },
-           new Emloyee
-           {
-           Id = 2,
-           Name = "John",
-           Department = "HR",
-           Email = "john@pragimtech.com"
-       }
-   );
+            foreach (var foreignKey in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
     }
 }

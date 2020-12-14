@@ -35,7 +35,7 @@ namespace eShopCommerce
         {
             services.AddControllersWithViews();
             services.AddDbContext<eShopContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MovieDB")));
+                options.UseSqlServer(Configuration.GetConnectionString("bShopDb")));
             services.AddIdentity<ApplicationUser, IdentityRole>(
                 options => 
                 {
