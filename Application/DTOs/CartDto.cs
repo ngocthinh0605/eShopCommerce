@@ -9,6 +9,12 @@ namespace Application.DTOs
 {
     public class CartDto
     {
+        public CartDto()
+        {
+            Price = 0;
+            Quantity = 0;
+
+        }
         [Key]
         public int Id { set; get; }
         public int ProductId { set; get; }
