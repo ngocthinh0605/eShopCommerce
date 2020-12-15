@@ -10,7 +10,7 @@ namespace eShopCommerce.Areas.Admin.Controllers
     
     [Area("admin")]
     [Route("admin/dashboard")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Policy = "AdminRolePolicy")]
     public class DashBoardController : Controller
     {
         [Route("")]

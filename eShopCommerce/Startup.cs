@@ -63,6 +63,25 @@ namespace eShopCommerce
          
            }
            ).AddXmlSerializerFormatters();
+            services.AddAuthorization(options =>
+            {
+               /* options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));*/
+
+                options.AddPolicy("EditRolePolicy",
+                    policy => policy.RequireClaim("Edit Role","true"));
+
+
+                options.AddPolicy("StaffRolePolicy",
+                    policy => policy.RequireRole("Staff"));
+
+                options.AddPolicy("AdminRolePolicy",
+                   policy => policy.RequireRole("Admin", "Staff"));
+
+
+                options.AddPolicy("AllowedCountryPolicy",
+                   policy => policy.RequireClaim("Country", "USA", "India", "UK"));
+            });
 
             services.AddScoped(typeof(IRepository<>), typeof(EFRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
@@ -80,7 +99,8 @@ namespace eShopCommerce
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error/Error");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }

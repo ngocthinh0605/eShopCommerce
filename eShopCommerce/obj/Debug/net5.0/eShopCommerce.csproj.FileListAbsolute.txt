@@ -755,3 +755,5 @@ D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\eShopCommerce.genruntime
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ListUsers.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\EditUser.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ListRole.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ManageUserRoles.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Administration\ManageUserClaims.cshtml.g.cs
