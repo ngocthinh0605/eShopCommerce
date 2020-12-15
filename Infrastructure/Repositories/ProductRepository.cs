@@ -28,7 +28,8 @@ namespace Infrastructure.Repositories
             {
                 query = query.Where(m => m.Name.Contains(searchString));
             }
-                return query.Skip((pageIndex - 1)* pageSize)
+            count = query.Count();
+            return query.Skip((pageIndex - 1)* pageSize)
                 .Take(pageSize).ToList();
         }
 
