@@ -74,6 +74,8 @@ namespace eShopCommerce.Areas.Admin.Controllers
             return RedirectToAction("Index", "Product", new { Areas = "admin" });
         }
 
+
+        [HttpGet]
         [Route("")]
         [Route("Edit")]
         public IActionResult Edit(int id)

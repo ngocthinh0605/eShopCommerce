@@ -18,14 +18,17 @@ namespace Application.Services
             _productRepository = productRepository;
         }
 
-        public void CreateProduct(ProductDto product)
+        public void CreateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            var product = productDto.MappingProduct();
+            _productRepository.Add(product);
         }
 
-        public void DeleteProduct(int product)
+        public void DeleteProduct(int productID)
         {
-            throw new NotImplementedException();
+            var product = _productRepository.GetBy(productID);
+
+            _productRepository.Delete(product);
         }
 
         public IEnumerable<ProductDto> GetAll()
@@ -53,9 +56,13 @@ namespace Application.Services
             return products.MappingDtos();
 
         }
-        public void UpdateProduct(ProductDto product)
+        public void UpdateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            var product = _productRepository.GetBy(productDto.Id);
+
+            productDto.MappingProduct(product);
+
+            _productRepository.Update(product);
         }
     }
 }

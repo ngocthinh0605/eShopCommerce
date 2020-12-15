@@ -26,8 +26,15 @@ using Microsoft.AspNetCore.Identity;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\PushGit\eShopCommerce\eShopCommerce\Areas\_ViewImports.cshtml"
+using Application.DTOs;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3926c2baa37de471dbbec13e89e3a9399babc743", @"/Areas/Admin/Views/DashBoard/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a41c0970dada439cbb7296a8001d236cf3ff2399", @"/Areas/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a4add4593147b75bff956cef3c5686717acbd11", @"/Areas/_ViewImports.cshtml")]
     public class Areas_Admin_Views_DashBoard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

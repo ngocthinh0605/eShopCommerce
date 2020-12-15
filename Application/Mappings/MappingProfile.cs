@@ -45,18 +45,18 @@ namespace Application.Mappings
             };
         }
 
-        public static void MappingProduct(this Product product, ProductDto productDto)
+        public static void MappingProduct(this ProductDto productDto, Product product)
         {
-            product.Id = productDto.Id;
-            product.Category_Id = productDto.Category_Id;
-            product.Name = productDto.Name;
-            product.DateCreated = productDto.DateCreated;
-            product.Image = productDto.Image;
-            product.IsFeatured = productDto.IsFeatured;
-            product.OriginalPrice = productDto.OriginalPrice;
-            product.Price = productDto.Price;
-            product.Stock = productDto.Stock;
-            product.ViewCount = productDto.ViewCount;
+            productDto.Id = product.Id;
+            productDto.Category_Id = product.Category_Id;
+            productDto.Name = product.Name;
+            productDto.DateCreated = product.DateCreated;
+            productDto.Image = product.Image;
+            productDto.IsFeatured = product.IsFeatured;
+            productDto.OriginalPrice = product.OriginalPrice;
+            productDto.Price = product.Price;
+            productDto.Stock = product.Stock;
+            productDto.ViewCount = product.ViewCount;
         }
 
         public static IEnumerable<ProductDto> MappingDtos(this IEnumerable<Product> products)
