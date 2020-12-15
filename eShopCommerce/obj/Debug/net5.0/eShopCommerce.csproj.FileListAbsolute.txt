@@ -761,3 +761,4 @@ D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs

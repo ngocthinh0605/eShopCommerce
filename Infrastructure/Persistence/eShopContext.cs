@@ -15,7 +15,9 @@ namespace Infrastructure.Persistence
         }
         public DbSet<Product> Products { set; get; }
         public DbSet<Category> Categories { set; get; }
-        public DbSet<Emloyee> Emloyees { set; get; }
+
+        public DbSet<Cart> Carts { set; get; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

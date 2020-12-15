@@ -21,7 +21,7 @@
                                     <div class="overlay-content">
                                         <ul>
                                             <li><a asp-controller="eShop" asp-action="ProductDetail" asp-route-id="@item.Id" title="Quick view"><i class="fa fa-search"></i></a></li>
-                                            <li><a href="#" title="Quick view"><i class="fa fa-shopping-cart"></i></a></li>
+                                            <li><a asp-controller="cart" asp-action="buy" asp-route-id="@item.Id" title="Quick view"><i class="fa fa-shopping-cart"></i></a></li>
                                             <li><a href="#" title="Quick view"><i class="fa fa-retweet"></i></a></li>
                                             <li><a href="#" title="Quick view"><i class="fa fa-heart-o"></i></a></li>
                                         </ul>

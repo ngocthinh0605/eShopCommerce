@@ -34,6 +34,7 @@ namespace eShopCommerce
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSession();
             services.AddDbContext<eShopContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("bShopDb")));
             services.AddIdentity<ApplicationUser, IdentityRole>(
@@ -105,6 +106,7 @@ namespace eShopCommerce
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            app.UseSession();
             app.UseStaticFiles();
 
             app.UseRouting();
