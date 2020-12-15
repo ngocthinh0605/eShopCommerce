@@ -28,6 +28,13 @@ namespace Application.Services
             throw new NotImplementedException();
         }
 
+        public IEnumerable<ProductDto> GetAll()
+        {
+            var products = _productRepository.GetAll();
+            return products.MappingDtos();
+            
+        }
+
         public IEnumerable<string> GetGenres()
         {
             return _productRepository.GetGenres();
@@ -46,7 +53,6 @@ namespace Application.Services
             return products.MappingDtos();
 
         }
-
         public void UpdateProduct(ProductDto product)
         {
             throw new NotImplementedException();

@@ -11,6 +11,7 @@ namespace Application.Interfaces
     {
         IEnumerable<ProductDto> GetProducts (string sortOrder, string movieGenre, string searchString, int pageIndex, int pageSize, out int count);
         ProductDto GetProduct(int productId);
+        IEnumerable<ProductDto> GetAll();
         IEnumerable<string> GetGenres();
         void CreateProduct(ProductDto product);
         void UpdateProduct(ProductDto product);

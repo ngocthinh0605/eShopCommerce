@@ -13,23 +13,21 @@ using System.Threading.Tasks;
 
 namespace eShopCommerce.Controllers
 {
+    [AllowAnonymous]
     public class eShopController : Controller
     {
-        /*private readonly IProductService _productService;
+        private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
         public eShopController(IProductService productService, ICategoryService categoryService)
         {
             _productService = productService;
             _categoryService = categoryService;
-        }*/
-        [AllowAnonymous]
-        public IActionResult Index()
-        {
-            return View();
         }
-       /* public IActionResult Index(string sortOrder, string movieGenre, string searchString, int pageIndex = 1)
+      
+
+        public IActionResult Index(string sortOrder, string movieGenre, string searchString, int pageIndex = 1)
         {
-            int pageSize = 6;
+            int pageSize = 20;
             int count;
             var products = _productService.GetProducts(sortOrder, movieGenre, searchString, pageIndex, pageSize, out count);
             var genres = _productService.GetGenres();
@@ -41,10 +39,9 @@ namespace eShopCommerce.Controllers
                 SearchString = searchString
             };
             return View(indexvm);
+        }
 
-
-        }*/
-       /* public IActionResult ProductDetail(int id)
+        public IActionResult ProductDetail(int id)
         {
             var producta = _productService.GetProduct(id);
             var productincategory = _categoryService.GetProductInCategory(producta.Category_Id);
@@ -53,7 +50,7 @@ namespace eShopCommerce.Controllers
                 product = producta,
                 productincategory = productincategory
 
-            }) ; 
-        }*/
+            });
+        }
     }
 }

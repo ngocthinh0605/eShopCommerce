@@ -11,7 +11,8 @@ namespace eShopCommerce.ViewModel
 {
     public class IndexViewModel
     {
-        public PaginatedList<ProductDto> Products { get; set; }
+        /*public PaginatedList<ProductDto> Products { get; set; }*/
+        public IEnumerable<ProductDto> Products { set; get; }
         public SelectList Genres { get; set; }
         public string ProductGenre { get; set; }
         public string SearchString { get; set; }

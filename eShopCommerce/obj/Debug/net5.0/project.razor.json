@@ -15658,6 +15658,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ManageUserRoles.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\ManageUserRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\ProductDetail.cshtml",
       "TargetPath": "Views\\eShop\\ProductDetail.cshtml",
       "FileKind": "mvc"
@@ -15690,6 +15695,11 @@
     {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\_AdmidLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ManageUserClaims.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Administration\\ManageUserClaims.cshtml",
       "FileKind": "mvc"
     },
     {
