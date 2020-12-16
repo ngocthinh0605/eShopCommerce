@@ -18,6 +18,7 @@ namespace eShopCommerce.Areas.Admin.Controllers
     [Route("admin/administration")]
     /*[Authorize(Roles = "Admin")]*/
     [Authorize(Policy = "AdminRolePolicy")]
+
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;

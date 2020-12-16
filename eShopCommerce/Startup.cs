@@ -72,6 +72,8 @@ namespace eShopCommerce
                 options.AddPolicy("EditRolePolicy",
                     policy => policy.RequireClaim("Edit Role","true"));
 
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Edit Role").RequireClaim("Delete Role"));
 
                 options.AddPolicy("StaffRolePolicy",
                     policy => policy.RequireRole("Staff"));
