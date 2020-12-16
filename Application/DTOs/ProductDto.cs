@@ -11,10 +11,7 @@ namespace Application.DTOs
     public class ProductDto
     {
 
-        public ProductDto()
-        {
-            Price = 0;
-        }
+        
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required(ErrorMessage = "Mã sản phẩm là bắt buộc")]
         public int Id { set; get; }
@@ -35,5 +32,10 @@ namespace Application.DTOs
         public string Image { get; set; }
 
         public decimal Total { get; set; }
+
+        public ProductDto()
+        {
+            Price = 0;
+        }
     }
 }

@@ -23,6 +23,8 @@ namespace eShopCommerce.Controllers
             var cart = SessionHelper.GetObjectFromJson<List<CartDto>>(HttpContext.Session, "cart");
             ViewBag.cart = cart;
             ViewBag.total = cart.Sum(item => item.ProductDto.Price * item.Quantity);
+            
+            /*ViewBag.total = cart.Sum(item => item.ProductDto.Price * item.Quantity);*/
             return View();
         }
 
