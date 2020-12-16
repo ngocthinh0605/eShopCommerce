@@ -10,6 +10,11 @@ namespace Domain.Entities
 {
     public class Cart : IAggregateRoot
     {
+        public Cart()
+        {
+            Quantity = 0;
+            Price = 0;
+        }
         [Key]
         public int Id                 {set;get;}
         public int ProductId          {set;get;}

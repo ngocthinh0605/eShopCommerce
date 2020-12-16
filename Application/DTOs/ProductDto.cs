@@ -33,5 +33,7 @@ namespace Application.DTOs
         public bool? IsFeatured { get; set; }
         [Required]
         public string Image { get; set; }
+
+        public decimal Total { get; set; }
     }
 }

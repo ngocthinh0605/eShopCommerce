@@ -11,9 +11,7 @@ namespace Application.DTOs
     {
         public CartDto()
         {
-            Price = 0;
             Quantity = 0;
-
         }
         [Key]
         public int Id { set; get; }

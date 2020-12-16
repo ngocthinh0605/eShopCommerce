@@ -8,6 +8,10 @@ namespace Domain.Entities
 {
     public class Product : IAggregateRoot
     {
+        public Product()
+        {
+            Price =0;
+        }
         [Key]
         public int Id { set; get; }
         public int Category_Id {set;get;}
@@ -20,7 +24,7 @@ namespace Domain.Entities
         public bool? IsFeatured { get; set; }
         public string Image { get; set; }
         public Category category {set;get;}
-        
+         
     
     }
 }
