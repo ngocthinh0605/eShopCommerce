@@ -78,6 +78,24 @@ namespace eShopCommerce.Controllers
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", cart);
             return RedirectToAction("Index");
         }
+
+        public IActionResult Address()
+        {
+            return View();
+        }
+
+        public IActionResult Shipping()
+        {
+            return View();
+        }
+
+        public IActionResult Payment()
+        {
+            var cart = SessionHelper.GetObjectFromJson<List<CartDto>>(HttpContext.Session, "cart");
+            ViewBag.cart = cart;
+            ViewBag.total = cart.Sum(item => item.ProductDto.Price * item.Quantity);
+            return View();
+        }
     }
 
 }
