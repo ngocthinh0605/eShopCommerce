@@ -18,6 +18,12 @@ namespace Infrastructure.Persistence
 
         public DbSet<Cart> Carts { set; get; }
 
+        public DbSet<Order> Orders { set; get; }
+        
+        public DbSet<OrderDetail> OrderDetails { set; get; }
+
+        public DbSet<Transaction> Transactions { set; get; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -26,6 +32,9 @@ namespace Infrastructure.Persistence
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
             }
+
+            builder.Entity<OrderDetail>().HasKey(c => new {c.OrderId,c.ProductId});
+          
         }
     }
 }

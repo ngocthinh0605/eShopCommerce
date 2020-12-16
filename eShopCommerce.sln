@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopCommerce", "eShopCommerce\eShopCommerce.csproj", "{50B1D7A3-1BF5-4C3A-871D-B14C8A619816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopCommerce", "eShopCommerce\eShopCommerce.csproj", "{50B1D7A3-1BF5-4C3A-871D-B14C8A619816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8723625B-4920-4120-B7EE-4D1875E838BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{8723625B-4920-4120-B7EE-4D1875E838BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{098F56E9-E689-4868-A7C2-B5E26A1403E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{098F56E9-E689-4868-A7C2-B5E26A1403E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{38726B36-B7FB-46A4-9C5F-4B6B2DFC1742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{38726B36-B7FB-46A4-9C5F-4B6B2DFC1742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{50B1D7A3-1BF5-4C3A-871D-B14C8A619816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{38726B36-B7FB-46A4-9C5F-4B6B2DFC1742}.Release|x64.Build.0 = Release|Any CPU
 		{38726B36-B7FB-46A4-9C5F-4B6B2DFC1742}.Release|x86.ActiveCfg = Release|Any CPU
 		{38726B36-B7FB-46A4-9C5F-4B6B2DFC1742}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6488465-E012-4198-A8D3-31187FD1B7D2}
 	EndGlobalSection
 EndGlobal

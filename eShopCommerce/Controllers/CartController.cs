@@ -30,7 +30,8 @@ namespace eShopCommerce.Controllers
 
         [Route("buy/{id}")]
         public IActionResult Buy(int id)
-        {
+        { 
+         
             if (SessionHelper.GetObjectFromJson<List<CartDto>>(HttpContext.Session, "cart") == null)
             {
                 List<CartDto> cart = new List<CartDto>();
@@ -53,6 +54,8 @@ namespace eShopCommerce.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        
         private int isExist(int id)
         {
             List<CartDto> cart = SessionHelper.GetObjectFromJson<List<CartDto>>(HttpContext.Session, "cart");

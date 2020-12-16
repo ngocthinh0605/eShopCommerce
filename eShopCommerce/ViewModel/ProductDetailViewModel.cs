@@ -10,5 +10,8 @@ namespace eShopCommerce.ViewModel
     {
         public ProductDto product { set; get; }
         public IEnumerable<ProductDto> productincategory { set; get; }
+
+        public int Quantity { set; get; }
+        public int Size { set; get; }
     }
 }

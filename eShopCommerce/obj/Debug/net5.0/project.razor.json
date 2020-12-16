@@ -15703,6 +15703,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Cart\\Address.cshtml",
+      "TargetPath": "Views\\Cart\\Address.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\ManageUserClaims.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Administration\\ManageUserClaims.cshtml",
       "FileKind": "mvc"
