@@ -52,5 +52,36 @@ namespace eShopCommerce.Controllers
 
             });
         }
+
+
+        public IActionResult Clothing(string sortOrder, string movieGenre, string searchString, int pageIndex = 1)
+        {
+            int pageSize = 3;
+            int count;
+            var products = _productService.GetProducts(sortOrder, movieGenre, searchString, pageIndex, pageSize, out count);
+            var genres = _productService.GetGenres();
+            var indexvm = new ClothingViewModel()
+            {
+                Products = new PaginatedList<ProductDto>(products, count, pageIndex, pageSize),
+                Genres = new SelectList(genres),
+                ProductGenre = movieGenre,
+                SearchString = searchString
+            };
+            return View(indexvm);
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult MyAccount()
+        {
+            return View();
+        }
+        public IActionResult WishList()
+        {
+            return View();
+        }
     }
 }

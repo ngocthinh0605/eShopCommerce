@@ -15613,6 +15613,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\Myaccount.cshtml",
+      "TargetPath": "Views\\eShop\\Myaccount.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_RegisterLayout.cshtml",
       "TargetPath": "Views\\Shared\\_RegisterLayout.cshtml",
       "FileKind": "mvc"
@@ -15638,6 +15643,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\AboutUs.cshtml",
+      "TargetPath": "Views\\eShop\\AboutUs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15653,6 +15663,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\Wishlist.cshtml",
+      "TargetPath": "Views\\Shared\\Wishlist.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditUser.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Administration\\EditUser.cshtml",
       "FileKind": "mvc"
@@ -15660,6 +15675,11 @@
     {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\Shared\\_Access.cshtml",
       "TargetPath": "Views\\Shared\\_Access.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\Wishlist.cshtml",
+      "TargetPath": "Views\\eShop\\Wishlist.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15695,6 +15715,11 @@
     {
       "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Areas\\Admin\\Views\\Administration\\EditRole.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Administration\\EditRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\PushGit\\eShopCommerce\\eShopCommerce\\Views\\eShop\\Clothing.cshtml",
+      "TargetPath": "Views\\eShop\\Clothing.cshtml",
       "FileKind": "mvc"
     },
     {

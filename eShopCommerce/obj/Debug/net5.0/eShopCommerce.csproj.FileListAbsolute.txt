@@ -765,3 +765,8 @@ D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Cart\Index.c
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Cart\Address.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Cart\Payment.cshtml.g.cs
 D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Cart\Shipping.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\eShop\Clothing.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\eShop\AboutUs.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\eShop\Myaccount.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\eShop\Wishlist.cshtml.g.cs
+D:\PushGit\eShopCommerce\eShopCommerce\obj\Debug\net5.0\Razor\Views\Shared\Wishlist.cshtml.g.cs
